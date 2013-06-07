@@ -19,6 +19,7 @@ package wde
 import (
 	"image"
 	"image/draw"
+	_ "github.com/skelterjohn/go.wde/init"
 )
 
 type Window interface {
